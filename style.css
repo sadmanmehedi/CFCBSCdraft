@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&family=Sofia&family=Staatliches&family=Teko&display=swap');
+
+body{
+  background-color: #F3F3F3;
+}
+
+h1{
+  text-align: center;
+  background-color:rgb(7, 0, 219) ;
+  font-family: 'Sofia', cursive;
+  color: aliceblue;
+  width: 600px;
+  margin-left: 450px;
+  margin-bottom: 2px;
+
+}
+
+h2
+{
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+  font-size: 40px;
+  margin-bottom: 2px;
+  margin-top: 5px;
+  color: rgb(189, 166, 35);
+  width:1500px;
+  border-left:5px rgb(209, 179, 6) dotted;
+  border-right:5px rgb(209, 179, 6)dotted;
+  border-top:5px rgb(209, 179, 6) dotted;
+  border-bottom:5px rgb(209, 179, 6)dotted;
+
+
+}
+
+h3{
+  margin-bottom: 2px;
+  margin-top: 5px;
+  text-align: center;
+  font-family: 'Teko', sans-serif;
+  font-size: 25px;
+  color: dodgerblue;
+}
+
+h4{
+  
+  margin-top: 5px;
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+  font-size: 20px;
+  color:rgb(121, 102, 111);
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+div.scrollmenu {
+  background-color: rgb(55, 55, 211);
+  overflow:hidden;
+  white-space: nowrap;
+  font-family: 'Teko', sans-serif;
+  font-size: 18px;
+  
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding-inline-end: 100px;
+  padding-left: 10px;
+  padding-top:8px;
+  padding-bottom:8px;
+  text-decoration: none;
+}
+
+
